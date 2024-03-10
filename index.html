@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik Mahadik - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/1658313790843.jpg" alt="Pratik Mahadik" width="80" style="border-radius: 10%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pratik Mahadik">Pratik Mahadik</h1>
+
+          <p class="title">Geospatial Software Developer - L3</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pratik.mahadik5@gmail.com" class="contact-link">pratik.mahadik5@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917218884721" class="contact-link">(+91) 7218884721</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1996-02-02">Feb 02, 1996</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://medium.com/@pratik-mahadik5" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://github.com/pratik-mahadik" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/pratik-mahadik" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="browsers-outline"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text" style="margin-bottom:30px;">
+          <p>
+            Welcome to my portfolio! I am a passionate Software Development Engineer with a focus on geospatial data processing and
+             web application development. 
+            </p>
+            <p>
+             With a strong foundation in Python, JavaScript, and SQL, coupled with proficiency in frameworks
+              like Flask, Django, and NextJS, I have led teams to process geospatial data at scale while integrating various product pipelines.
+          </p>
+          <!-- <p>
+            My expertise extends to designing Kubernetes frameworks, implementing advanced technologies like STAC and Opendatacube,
+            and managing client deliveries across diverse geographic regions.
+          </p> -->
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What do I do ?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Geospatial workflows</h4>
+
+                <p class="service-item-text">
+                  Crafting resilient and scalable geospatial data processing workflow.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Developing fault tolerant web appliation which cater the load of thousands of visitors
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robot-solid.svg" alt="mobile app icon" width="40" style="color: #FFBC5E;">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation</h4>
+
+                <p class="service-item-text">
+                  Developing Python scripts to streamline manual workflows and enhance operational efficiency.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/map-outline.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visualization</h4>
+
+                <p class="service-item-text">
+                  Utilizing web mapping tools to present data for enhanced interpretation and informed decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/globe-outline.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Satellite Insights</h4>
+
+                <p class="service-item-text">
+                  Processing optical and SAR based saellite data to generate useful insights
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/location-outline.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">GIS Use Cases</h4>
+
+                <p class="service-item-text">
+                  Dedicated to addressing real-world challenges by leveraging openly accessible GIS vector data.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+       
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <!--
+          - clients
+        -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+       
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Development Engineer - III</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+               Leading platform team which is responsible for processing large volume of satellite data,
+                maintaining datawarehouse and integrting different data science pipelines.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Development Engineer - II</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Built geoprocessing applications for clients which involved architecturing the app to deployment which is scalable.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Geospatial Software Developer @ SatSure</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Writing automation scripts using python. Developing webapps for client and tools to process complex datasets 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Professor</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Assistant professor at College of Agriculture, Nandgaon teachine computer science, soil and water conservation engineering.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Symbiosis International University</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                M.Tech Geoinformatics and Surveying Technology CGPA:8.11/10
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth, Dapoli</h4>
+
+              <span>2013 — 2017</span>
+
+              <p class="timeline-text">
+                B.Tech in Agricultural Engineering and Technology CGPA:7.50/10
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card" style="display: flex;align-items: center;justify-content: space-around;">
+
+            <a class="icon-box" href="https://www.python.org" target="_blank">
+              <ion-icon name="logo-python" style="font-size: 27px;"></ion-icon>
+            </a>
+            <a class="icon-box" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+              <ion-icon name="logo-javascript" style="font-size: 23px;"></ion-icon>
+            </a>
+            <a class="icon-box" href="https://aws.amazon.com/" target="_blank">
+              <i class="fa-brands fa-aws" style="font-size: 23px;"></i>
+            </a>
+            <a class="icon-box" href="https://cloud.google.com/" target="_blank">
+              <i class="fa-brands fa-google" style="font-size: 23px;"></i>
+            </a>
+            <a class="icon-box" href="https://www.docker.com/" target="_blank">
+              <i class="fa-brands fa-docker" style="font-size: 23px;"></i>
+            </a>
+            <a class="icon-box" href="https://nodejs.org/" target="_blank">
+              <i class="fa-brands fa-node" style="font-size: 27px;"></i>
+            </a>
+            <a class="icon-box" href="https://react.dev/" target="_blank">
+              <i class="fa-brands fa-react" style="font-size: 25px;"></i>
+            </a>
+            <a class="icon-box" href="https://kubernetes.io/" target="_blank">
+              <img src="./assets/images/kubernetes.svg
+              " alt="design icon" width="25">
+            </a>
+            <a class="icon-box" href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">
+              <img src="./assets/images/flask.svg
+              " alt="design icon" width="45">
+            </a>
+            <a class="icon-box" href="https://www.djangoproject.com/" target="_blank">
+              <img src="./assets/images/django.svg
+              " alt="design icon" width="45">
+            </a>
+            
+            
+
+          </ul>
+          <ul  class="skills-list content-card" style="display: flex;align-items: center;justify-content: space-around; margin-top: 20px">
+            <a class="icon-box" href="https://docs.celeryq.dev/" target="_blank">
+              <img src="./assets/images/celery.svg
+              " alt="design icon" width="40">
+            </a>
+            <a class="icon-box" href="https://redis.io/" target="_blank">
+              <img src="./assets/images/redis.svg
+              " alt="design icon" width="30">
+            </a>
+            <a class="icon-box" href="https://gdal.org/" target="_blank">
+              <img src="./assets/images/gdal.svg
+              " alt="design icon" width="25">
+            </a>
+            <a class="icon-box" href="https://grafana.com/" target="_blank">
+              <img src="./assets/images/grafana.svg
+              " alt="design icon" width="25">
+            </a>
+            <a class="icon-box" href="hhttps://www.opendatacube.org/" target="_blank">
+              <img src="./assets/images/odc.svg
+              " alt="design icon" width="40">
+            </a>
+            <a class="icon-box" href="https://stacspec.org/" target="_blank">
+              <img src="./assets/images/stac.svg
+              " alt="design icon" width="45">
+            </a>
+            <a class="icon-box" href="https://geoserver.org/" target="_blank">
+              <img src="./assets/images/geoserver.svg
+              " alt="design icon" width="55">
+            </a>
+            <a class="icon-box" href="https://postgis.net/" target="_blank">
+              <img src="./assets/images/postgis.svg
+              " alt="design icon" width="25">
+            </a>
+            <a class="icon-box" href="https://openlayers.org/" target="_blank">
+              <img src="./assets/images/openlayers.svg
+              " alt="design icon" width="25">
+            </a>
+            <a class="icon-box" href="https://leafletjs.com/" target="_blank">
+              <img src="./assets/images/leaflet.svg
+              " alt="design icon" width="45">
+            </a>
+          </ul>
+    
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Tools</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Notebooks</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Applications</button>
+              </li>
+
+              <li class="select-item">Tools
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Notebooks</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web applications">
+              <a href="https://github.com/pratik-mahadik/geoapi-assignment">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Geo-django App</h3>
+
+                <p class="project-category">Web Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://colab.research.google.com/drive/1VbZbRyOPbQ8R362Q4sXuUPVMF6aCcJa3?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vineyard management through remote sensing for farm and crop analysis.</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://drive.google.com/drive/folders/1wt2C-rlIwufB0XMeKk_jO7pFRe9_6n-q?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predict location-based pricing strategies using geo-intelligence.</h3>
+
+                <p class="project-category">Web Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="tools">
+              <a href="https://github.com/pratik-mahadik/Interpolation">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Interpolation on raster</h3>
+
+                <p class="project-category">Tools</p>
+
+              </a>
+            </li>
+
+           <li class="project-item  active" data-filter-item data-category="tools">
+              <a href="https://github.com/pratik-mahadik/Downscaling-code">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Downscaling satellite data</h3>
+
+                <p class="project-category">Tools</p>
+
+              </a>
+            </li>
+
+             <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@pratik-mahadik5/osmnx-handling-street-networks-6d8a8cbb0628">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/osmnx.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">GIS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-11-01">Nov 1, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">OSMnx — Handling Street Networks</h3>
+
+                  <p class="blog-text">
+                    Analyze street network data for purpose based on graph theory
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/docker-django-geoserver.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-29">March 29, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Building a Django GIS application using GeoServer and Docker</h3>
+
+                  <p class="blog-text">
+                    Django, GeoServer, and Docker can be used to create a powerful web-based GIS (Geographic Information System) application.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/prediction-real-estates.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Analysis</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-24">June 24, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Prediction of Real Estates for Investment</h3>
+
+                  <p class="blog-text">
+                    Using gis data predicting prices based on historic data.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ocean-of-fire.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">News</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-07-07">July 07, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Beyond the Ocean of fire</h3>
+
+                  <p class="blog-text">
+                    On July 2nd, 2021, a fire flared up in the southern seas of the Gulf of Mexico
+                     after an undersea pipeline spilled, literally lighting the "ocean on fire".
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blender-gis.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D Maps</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-05-13">May 13, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Blender GIS Part 1: Create 3d Maps with Google Satellite Imagery</h3>
+
+                  <p class="blog-text">
+                    Blender is a powerful fast open-source 3D creation tool.
+                    Lets create a 3d terrain map for a particular region
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/air-pollution.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Analysis</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-11-09">Nov 09, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Pollution Monitoring in India using Sentinel-5P</h3>
+
+                  <p class="blog-text">
+                    Monitor air pollution with Sentinel-5P satellite data.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.9008962275!2d77.46613104008132!3d12.953945617220896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1710008809149!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/3577374926.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
